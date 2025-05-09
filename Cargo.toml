@@ -1,7 +1,13 @@
 [package]
 name = "simulador-bomba-infusion"
+description = "test"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.97"
 iced = "0.13.1"
+
+[package.metadata.bundle]
+name = "test"
+identifier = "com.example.test"
